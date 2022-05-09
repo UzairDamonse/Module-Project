@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* ===================================================================================================================== */
+
+/* Nav Bar */
+
+#navbar {
+  color: #c8c8c8;
+}
+
+.navbar {
+  background: rgba(132, 132, 132, 0.6);
+  border-bottom: 1px solid rgba(132, 132, 132, 0.6);
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+}
+
+#logo {
+  font-size: 2rem;
+  color: #ffc14a;
+}
+
+#logo:hover {
+  color: #c8c8c8;
+}
+
+.nav-item {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #c8c8c8;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ffc14a;
+}
+
+/* ===================================================================================================================== */
+
+/* Home Page */
+
+#Home {
+  background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)),
+    url(./Images/Home-background.gif);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
