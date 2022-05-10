@@ -5,17 +5,30 @@
   scroll-behavior: smooth;
 }
 
+.description {
+  font-size: 20px;
+}
+
+.underline::after {
+  content: "";
+  width: 120px;
+  height: 10px;
+  display: inline-block;
+  background: rgba(58, 41, 93, 0.75);
+  margin: 4px 10px;
+}
+
 /* ===================================================================================================================== */
 
 /* Nav Bar */
 
 #navbar {
-  color: #c8c8c8;
+  color: #efecca;
 }
 
 .navbar {
-  background: rgba(132, 132, 132, 0.6);
-  border-bottom: 1px solid rgba(132, 132, 132, 0.6);
+  background: rgba(132, 132, 132, 0.8);
+  border-bottom: 1px solid rgba(132, 132, 132, 0.8);
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -23,11 +36,11 @@
 
 #logo {
   font-size: 2rem;
-  color: #ffc14a;
+  color: #a5e9ce;
 }
 
 #logo:hover {
-  color: #c8c8c8;
+  color: #e2e9a5;
 }
 
 .nav-item {
@@ -37,13 +50,20 @@
 }
 
 .navbar-nav .nav-item .nav-link {
-  color: #c8c8c8;
+  color: #e2e9a5;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc14a;
+  color: #a5e9ce;
 }
 
+#nav-btn {
+  color: #e2e9a5;
+}
+
+#nav-btn:hover {
+  color: #a5e9ce;
+}
 /* ===================================================================================================================== */
 
 /* Home Page */
@@ -57,4 +77,74 @@
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+#home-title {
+  color: #efecca;
+  font-size: 50px;
+}
+
+#home-sub-title {
+  color: #7d9345;
+  font-size: 50px;
+}
+
+/* ===================================================================================================================== */
+
+/* Projects page styles */
+
+#Dream-destination {
+  width: 60%;
+  height: 60%;
+}
+
+#Calculator {
+  width: 60%;
+  height: 60%;
+}
+
+#Restaurant {
+  width: 100%;
+  height: 100%;
+}
+
+#Projects {
+  min-height: 100vh;
+  background-color: #e2e9a5;
+}
+
+#Project-title {
+  font-size: 50px;
+}
+
+/* ===================================================================================================================== */
+
+/* About */
+
+#About {
+  background-color: #e2e9a5;
+}
+
+.about-title {
+  font-size: 50px;
+}
+
+/* ===================================================================================================================== */
+
+/* Skills */
+
+#Skills {
+  background-color: #e2e9a5;
+}
+
+#Skills-title {
+  font-size: 50px;
+}
+
+/* ===================================================================================================================== */
+
+/* Footer  */
+
+#Footer {
+  background-color: #e2e9a5;
 }
