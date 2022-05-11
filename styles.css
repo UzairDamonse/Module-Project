@@ -18,6 +18,9 @@
   margin: 4px 10px;
 }
 
+section {
+  background-color: #e2e9a5;
+}
 /* ===================================================================================================================== */
 
 /* Nav Bar */
@@ -94,18 +97,24 @@
 /* Projects page styles */
 
 #Dream-destination {
-  width: 60%;
-  height: 60%;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  box-shadow: 3px 4px 18px 5px rgba(0, 0, 0, 0.7);
 }
 
 #Calculator {
-  width: 60%;
-  height: 60%;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  box-shadow: 3px 4px 18px 5px rgba(0, 0, 0, 0.7);
 }
 
 #Restaurant {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  box-shadow: 3px 4px 18px 5px rgba(0, 0, 0, 0.7);
 }
 
 #Projects {
