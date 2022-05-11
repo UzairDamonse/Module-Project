@@ -100,12 +100,12 @@ body {
 }
 
 #home-title {
-  color: #efecca;
+  color: var(--grey);
   font-size: 50px;
 }
 
 #home-sub-title {
-  color: #28536b;
+  color: var(--blue);
   font-size: 50px;
 }
 
