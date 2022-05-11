@@ -4,12 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="Colin Simpson Design" />
-    <meta
-      property="og:description"
-      content="Business transformation right in front of your eyes"
-    />
-    <meta property="og:image" content="https://imgur.com/2F83KlO" />
     <title>Portfolio</title>
     <!-- Bootstrap -->
     <link
@@ -115,13 +109,12 @@
 
     <!-- Beginning of Projects -->
 
-    <section
-      id="Projects"
-      class="py-5 Project-container"
-      data-aos="fade-up"
-      data-aos-duration="900"
-    >
-      <div class="container">
+    <section id="Projects" class="py-5 Project-container">
+      <div
+        class="container py-5 border edge"
+        data-aos="fade-up"
+        data-aos-duration="900"
+      >
         <h2 id="Project-title" class="text-start mx-4 px-4">
           Some of my projects
         </h2>
@@ -131,8 +124,7 @@
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
           saepe animi, perferendis harum quidem recusandae.
         </p>
-      </div>
-      <div class="container text-center text-black">
+        <!-- <div class="container text-center text-black"> -->
         <div id="ProjectSlider" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators mt-5 pt">
             <button
@@ -169,7 +161,7 @@
                 class="d-block rounded image-fluid"
                 alt="Dream-destination"
               />
-              <div class="carousel-caption d-none d-md-block mb-4">
+              <div class="carousel-caption d-none d-md-block mb-4 text-dark">
                 <h5>Dream-destination</h5>
                 <p>
                   <i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit
@@ -179,12 +171,12 @@
                 <div class="links m-3">
                   <a
                     href="#"
-                    class="btn btn-outline-dark rounded-pill text-decoration-none"
+                    class="project-links btn rounded-pill text-decoration-none"
                     ><i class="fa-brands fa-github"></i> GitHub</a
                   >
                   <a
                     href="#"
-                    class="btn btn-outline-light rounded-pill text-decoration-none"
+                    class="project-links btn rounded-pill text-decoration-none"
                     ><i class="fa-solid fa-link"></i> Live</a
                   >
                 </div>
@@ -197,51 +189,53 @@
                 class="d-block rounded image-fluid"
                 alt="Calculator"
               />
-              <div class="carousel-caption d-none d-md-block mb-4">
-                <h5>Calculator</h5>
-                <p>
-                  <i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor, sit
-                  amet consectetur adipisicing elit.
-                  <i class="fa-solid fa-quote-right"></i>
+              <div class="carousel-caption d-none d-md-block mb-4 text-black">
+                <h5 class="Calculator-text">Calculator</h5>
+                <p class="Calculator-text">
+                  <i class="Calculator-text fa-solid fa-quote-left"></i> Lorem
+                  ipsum dolor, sit amet consectetur adipisicing elit.
+                  <i class="Calculator-text fa-solid fa-quote-right"></i>
                 </p>
                 <div class="links m-3">
                   <a
                     href="#"
-                    class="btn btn-outline-light rounded-pill text-decoration-none"
+                    class="project-links btn rounded-pill text-decoration-none"
                     ><i class="fa-brands fa-github"></i> GitHub</a
                   >
                   <a
                     href="#"
-                    class="btn btn-outline-light rounded-pill text-decoration-none"
+                    class="project-links btn rounded-pill text-decoration-none"
                     ><i class="fa-solid fa-link"></i> Live</a
                   >
                 </div>
               </div>
             </div>
-            <div class="carousel-item pb-5 text-center mb-5">
+            <div class="carousel-item pb-5 mb-5 text-center">
               <img
                 src="./Images/Restaurant.png"
                 id="Restaurant"
                 class="d-block rounded image-fluid"
                 alt="Restaurant"
               />
-              <div class="carousel-caption d-none d-md-block mb-4">
+              <div class="carousel-caption d-none d-md-block mb-4 text-light">
                 <h5>Restaurant</h5>
                 <p>
                   <i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit
                   amet consectetur adipisicing elit.
                   <i class="fa-solid fa-quote-right"></i>
                 </p>
-                <a
-                  href="#"
-                  class="btn btn-outline-light rounded-pill text-decoration-none"
-                  ><i class="fa-brands fa-github"></i> GitHub</a
-                >
-                <a
-                  href="#"
-                  class="btn btn-outline-light rounded-pill text-decoration-none"
-                  ><i class="fa-solid fa-link"></i> Live</a
-                >
+                <div class="links m-3">
+                  <a
+                    href="#"
+                    class="project-links btn rounded-pill text-decoration-none"
+                    ><i class="fa-brands fa-github"></i> GitHub</a
+                  >
+                  <a
+                    href="#"
+                    class="project-links btn rounded-pill text-decoration-none"
+                    ><i class="fa-solid fa-link"></i> Live</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -254,7 +248,7 @@
     <!-- Beginning of About -->
 
     <section id="About" class="py-5">
-      <div class="container p-5 mx-4">
+      <div class="container py-5 border edge">
         <h2 class="about-title text-start mx-4 px-4">
           Hi, I'm Uzair, a prospective full-stack developer who likes a
           challenge
@@ -276,7 +270,7 @@
     <!-- Beginning of Skills -->
 
     <section id="Skills" class="py-5">
-      <div class="container py-5 px-0">
+      <div class="container py-5 border edge">
         <h2 id="Skills-title" class="text-start mx-4 px-3">
           The Skills I have
         </h2>
@@ -284,22 +278,37 @@
 
         <div class="row py-5 mt-3">
           <div class="col-md-4">
-            <div class="card rounded shadow">
-              <div class="card-body text-center fs-1">
+            <div class="card-shadow card rounded-pill">
+              <div
+                class="card-body text-center fs-1"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="HTML"
+              >
                 <i class="fa-brands fa-html5"></i>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card rounded shadow">
-              <div class="card-body text-center fs-1">
+            <div class="card-shadow card rounded-pill">
+              <div
+                class="card-body text-center fs-1"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="CSS"
+              >
                 <i class="fa-brands fa-css3"></i>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card rounded shadow">
-              <div class="card-body text-center fs-1">
+            <div class="card-shadow card rounded-pill">
+              <div
+                class="card-body text-center fs-1"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Bootstrap"
+              >
                 <i class="fa-brands fa-bootstrap"></i>
               </div>
             </div>
@@ -313,11 +322,11 @@
     <!-- Beginning of Resume -->
 
     <section id="Resume" class="py-5">
-      <div class="container my-5">
+      <div class="container py-5 border edge">
         <h2 id="Resume-title" class="text-center mx-4 px-3">
           My Current Abilities and Past Experience
         </h2>
-        <p class="underline text-center mx-4 px-3 mb-5"></p>
+        <p class="underline text-center mx-4 px-3 mb-5 pb-5"></p>
 
         <div class="row">
           <div class="col-md-5">
@@ -403,7 +412,7 @@
     <!-- Beginning of Testimonials -->
 
     <section id="Testimonials" class="py-5">
-      <div class="container-fluid py-5">
+      <div class="container py-5 border edge">
         <div class="owl-carousel">
           <div class="p-3">
             <div class="bg-dark text-white p-3">1</div>
@@ -435,7 +444,7 @@
     <!-- Beginning of Contact -->
 
     <section id="Contact" class="py-5">
-      <div class="container my-5"></div>
+      <div class="container py-5 border edge"></div>
     </section>
 
     <!-- End of Contact -->

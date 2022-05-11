@@ -5,6 +5,12 @@
   scroll-behavior: smooth;
 }
 
+:root {
+  --black: rgb(48, 48, 48);
+  --grey: #bfbfbf;
+  --blue: #2e64b5;
+}
+
 .description {
   font-size: 20px;
 }
@@ -14,19 +20,27 @@
   width: 120px;
   height: 10px;
   display: inline-block;
-  background: rgba(58, 41, 93, 0.75);
+  background: rgba(46, 100, 181, 0.75);
   margin: 4px 10px;
 }
 
 section {
-  background-color: #80826e;
+  background-color: var(--black);
+}
+
+.edge {
+  border-radius: 10px;
+}
+
+body {
+  color: var(--black);
 }
 /* ===================================================================================================================== */
 
 /* Nav Bar */
 
 #navbar {
-  color: #efecca;
+  color: rgba(48, 48, 48, 0.84);
 }
 
 .navbar {
@@ -39,11 +53,12 @@ section {
 
 #logo {
   font-size: 2rem;
-  color: #f9a620;
+  color: var(--blue);
+  text-shadow: 1px 1px 8px rgba(191, 191, 191, 0.84);
 }
 
 #logo:hover {
-  color: #e2e9a5;
+  color: var(--grey);
 }
 
 .nav-item {
@@ -53,19 +68,21 @@ section {
 }
 
 .navbar-nav .nav-item .nav-link {
-  color: #e2e9a5;
+  color: var(--grey);
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  color: #f9a620;
+  color: var(--blue);
+  text-shadow: 1px 1px 8px rgba(191, 191, 191, 0.84);
 }
 
 #nav-btn {
-  color: #e2e9a5;
+  color: var(--grey);
 }
 
 #nav-btn:hover {
-  color: #f9a620;
+  color: var(--blue);
+  text-shadow: 1px 1px 8px rgba(191, 191, 191, 0.84);
 }
 /* ===================================================================================================================== */
 
@@ -95,35 +112,53 @@ section {
 /* ===================================================================================================================== */
 
 /* Projects page styles */
+#Projects {
+  min-height: 100vh;
+  background-color: var(--black);
+}
+
+#Projects .container {
+  background-color: var(--grey);
+  box-shadow: 0px 1px 13px 8px #434141;
+}
+
+#Project-title {
+  font-size: 50px;
+}
 
 #Dream-destination {
-  width: 90%;
-  height: 90%;
+  width: 950px;
+  height: 500px;
   margin: auto;
   box-shadow: 3px 4px 18px 5px rgba(0, 0, 0, 0.7);
 }
 
 #Calculator {
-  width: 90%;
-  height: 90%;
+  width: 950px;
+  height: 500px;
   margin: auto;
   box-shadow: 3px 4px 18px 5px rgba(0, 0, 0, 0.7);
+}
+
+.Calculator-text {
+  text-shadow: 1px 1px 6px rgba(191, 191, 191, 0.84);
 }
 
 #Restaurant {
-  width: 90%;
-  height: 90%;
+  width: 950px;
+  height: 500px;
   margin: auto;
   box-shadow: 3px 4px 18px 5px rgba(0, 0, 0, 0.7);
 }
 
-#Projects {
-  min-height: 100vh;
-  background-color: #80826e;
+.project-links {
+  color: var(--blue);
+  background-color: var(--grey);
 }
 
-#Project-title {
-  font-size: 50px;
+.project-links:hover {
+  color: var(--grey);
+  background-color: var(--blue);
 }
 
 /* ===================================================================================================================== */
@@ -131,7 +166,12 @@ section {
 /* About */
 
 #About {
-  background-color: #80826e;
+  background-color: var(--black);
+}
+
+#About .container {
+  background-color: var(--grey);
+  box-shadow: 0px 1px 13px 8px #434141;
 }
 
 .about-title {
@@ -143,11 +183,57 @@ section {
 /* Skills */
 
 #Skills {
-  background-color: #80826e;
+  background-color: var(--black);
+}
+
+#Skills .container {
+  background-color: var(--grey);
+  box-shadow: 0px 1px 13px 8px #434141;
 }
 
 #Skills-title {
   font-size: 50px;
+}
+
+#Skills .card {
+  background-color: var(--black);
+  color: var(--blue);
+}
+
+#Skills .card:hover {
+  background-color: var(--blue);
+  color: var(--black);
+}
+
+.card-shadow {
+  box-shadow: 0px 0px 16px 5px rgba(109, 106, 106, 0.6);
+}
+
+/* ===================================================================================================================== */
+
+/* Resume */
+
+#Resume .container {
+  background-color: var(--grey);
+  box-shadow: 0px 1px 13px 8px #434141;
+}
+
+/* ===================================================================================================================== */
+
+/* Testimonials */
+
+#Testimonials .container {
+  background-color: var(--grey);
+  box-shadow: 0px 1px 13px 8px #434141;
+}
+
+/* ===================================================================================================================== */
+
+/* Contact */
+
+#Contact .container {
+  background-color: var(--grey);
+  box-shadow: 0px 1px 13px 8px #434141;
 }
 
 /* ===================================================================================================================== */
@@ -155,5 +241,6 @@ section {
 /* Footer  */
 
 #Footer {
-  background-color: #80826e;
+  background-color: var(--black);
+  color: var(--grey);
 }
