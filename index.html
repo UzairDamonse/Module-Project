@@ -39,9 +39,9 @@
 
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid d-flex justify-content-around">
-        <a id="Logo-container" class="navbar-brand" href="#Home"
-          ><i id="logo" class="fa-solid fa-dragon"></i
-        ></a>
+        <a id="Logo-container" class="navbar-brand" href="#Home">
+          <img id="logo" src="./Images/Logo.jpg" alt="Logo" />
+        </a>
         <button
           id="nav-btn"
           class="navbar-toggler ms-auto"
@@ -100,8 +100,15 @@
       class="text-uppercase d-flex justify-content-center align-items-center flex-column"
     >
       <div class="container my-5">
-        <h1 id="home-title">uzair damonse</h1>
-        <h2 id="home-sub-title">aspiring full-stack developer</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img id="Home-logo" src="./Images/Home-logo.gif" alt="Logo" />
+          </div>
+          <div class="col-md-8 d-flex justify-content-center flex-column">
+            <h1 id="home-title">uzair damonse</h1>
+            <h2 id="home-sub-title">aspiring full-stack developer</h2>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -121,8 +128,7 @@
         <p class="underline text-start mx-4 px-3 mb-5"></p>
 
         <p class="description mb-5 text-start mx-4 px-4">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
-          saepe animi, perferendis harum quidem recusandae.
+          These are some of the projects I have worked on so far.
         </p>
         <div id="ProjectSlider" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators mt-5 pt">
@@ -170,11 +176,13 @@
                 <div class="links m-3">
                   <a
                     href="#"
+                    target="_blank"
                     class="project-links btn rounded-pill text-decoration-none"
                     ><i class="fa-brands fa-github"></i> GitHub</a
                   >
                   <a
                     href="#"
+                    target="_blank"
                     class="project-links btn rounded-pill text-decoration-none"
                     ><i class="fa-solid fa-link"></i> Live</a
                   >
@@ -198,11 +206,13 @@
                 <div class="links m-3">
                   <a
                     href="#"
+                    target="_blank"
                     class="project-links btn rounded-pill text-decoration-none"
                     ><i class="fa-brands fa-github"></i> GitHub</a
                   >
                   <a
                     href="#"
+                    target="_blank"
                     class="project-links btn rounded-pill text-decoration-none"
                     ><i class="fa-solid fa-link"></i> Live</a
                   >
@@ -226,11 +236,13 @@
                 <div class="links m-3">
                   <a
                     href="#"
+                    target="_blank"
                     class="project-links btn rounded-pill text-decoration-none"
                     ><i class="fa-brands fa-github"></i> GitHub</a
                   >
                   <a
                     href="#"
+                    target="_blank"
                     class="project-links btn rounded-pill text-decoration-none"
                     ><i class="fa-solid fa-link"></i> Live</a
                   >
@@ -270,10 +282,10 @@
 
     <section id="Skills" class="py-5">
       <div class="container py-5 border edge">
-        <h2 id="Skills-title" class="text-start mx-4 px-3">
+        <h2 id="Skills-title" class="text-capitalize text-start mx-4 px-3">
           The Skills I have
         </h2>
-        <p class="underline text-start mx-4 px-3 mb-5"></p>
+        <p class="underline text-start mx-4 px-3 mb-4"></p>
 
         <div class="row py-5 mt-3">
           <div class="col-md-4 mt-4">
@@ -322,7 +334,7 @@
 
     <section id="Resume" class="py-5">
       <div class="container py-5 border edge">
-        <h2 id="Resume-title" class="text-center mx-4 px-3">
+        <h2 id="Resume-title" class="text-capitalize text-center mx-4 px-3">
           My Current Abilities and Past Experience
         </h2>
         <p class="underline text-center mx-4 px-3 mb-5 pb-5"></p>
@@ -330,6 +342,14 @@
         <div class="row">
           <div class="col-md-5">
             <div>
+              <div class="Me mx-4 px-3 d-flex justify-content-center">
+                <img
+                  id="Me"
+                  class="mb-4 rounded"
+                  src="./Images/Uzair1.jpg"
+                  alt="Me"
+                />
+              </div>
               <h2 class="text-uppercase text-start mx-4 px-3">Objective</h2>
               <p class="underline text-start mx-4 px-3 mb-5"></p>
 
@@ -345,8 +365,8 @@
               <p class="underline text-start mx-4 px-3 mb-5"></p>
               <ul class="mx-5 px-3 mb-5">
                 <li>Web Design</li>
-                <li>Web Development</li>
                 <li>User Experience</li>
+                <li>Web Development</li>
                 <li>Mobile Responsiveness</li>
               </ul>
             </div>
@@ -355,10 +375,10 @@
                 Personal skills
               </h2>
               <ul class="mx-5 px-3 mb-5">
-                <li>Communication</li>
-                <li>Problem-Solving</li>
                 <li>Leading</li>
                 <li>Team Player</li>
+                <li>Communication</li>
+                <li>Problem-Solving</li>
               </ul>
             </div>
           </div>
@@ -414,25 +434,151 @@
       <div class="container py-5 border edge">
         <div class="owl-carousel">
           <div class="p-3">
-            <div class="bg-dark text-white p-3">1</div>
+            <div class="bg-dark text-white p-3">
+              <i class="fa-solid fa-quote-left"></i>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              quasi laudantium aut cumque quaerat nobis dolorum tempore expedita
+              ratione exercitationem?
+              <i class="fa-solid fa-quote-right"></i>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    class="test-img rounded-circle mt-3"
+                    src=""
+                    alt="Jason"
+                  />
+                </div>
+                <div class="col-md-8 d-flex justify-content-center flex-column">
+                  <h4>Jason Wandrag</h4>
+                  <h5>Lecturer</h5>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="p-3">
-            <div class="bg-dark text-white p-3">2</div>
+            <div class="bg-dark text-white p-3">
+              <i class="fa-solid fa-quote-left"></i>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              quasi laudantium aut cumque quaerat nobis dolorum tempore expedita
+              ratione exercitationem?
+              <i class="fa-solid fa-quote-right"></i>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    class="test-img rounded-circle mt-3"
+                    src=""
+                    alt="Sandy"
+                  />
+                </div>
+                <div class="col-md-8 d-flex justify-content-center flex-column">
+                  <h4>Sandy Williams</h4>
+                  <h5>Lecturer</h5>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="p-3">
-            <div class="bg-dark text-white p-3">3</div>
+            <div class="bg-dark text-white p-3">
+              <i class="fa-solid fa-quote-left"></i>
+              Uzair Damonse is a very animated young man who is never afraid to
+              express his thoughts while keeping other people's thoughts and
+              feeling in mind . He has the ability to communicate clearly when
+              working with a group and has an excellent ability to ensure the
+              project reaches it's desired outcome.
+              <i class="fa-solid fa-quote-right"></i>
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    class="test-img rounded-circle mt-3"
+                    src="./Images/Ricardo1.jpg"
+                    alt="Ricardo"
+                  />
+                </div>
+                <div class="col-md-8 d-flex justify-content-center flex-column">
+                  <h4>Ricardo Ronan Moses</h4>
+                  <h5>Peer</h5>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="p-3">
-            <div class="bg-dark text-white p-3">4</div>
+            <div class="bg-dark text-white p-3">
+              <i class="fa-solid fa-quote-left"></i>
+              Uzair is a fast learner with the ability to pick up new skills
+              swiftly. With a natural ability for all things technical, Uzair
+              will find a way to fix any problem and overcome any challenge. His
+              competitive nature helps him to exceed in his field. It's been an
+              absolute pleasure working alongside such a bright-minded guy.
+              <i class="fa-solid fa-quote-right"></i>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    class="test-img rounded-circle mt-3"
+                    src="./Images/Fatima1.jpg"
+                    alt="Fatima"
+                  />
+                </div>
+                <div class="col-md-8 d-flex justify-content-center flex-column">
+                  <h4>Fatima Gallant</h4>
+                  <h5>Peer</h5>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="p-3">
-            <div class="bg-dark text-white p-3">5</div>
+            <div class="bg-dark text-white p-3">
+              <i class="fa-solid fa-quote-left"></i>
+              Uzair is an extremely intelligent individual, he is clearly able
+              to grasp complex problems faster than the average person. He has a
+              keen eye for detail and diligently works toward perfection. He's
+              also kind and open-minded which makes him an absolute delight to
+              be around.
+              <i class="fa-solid fa-quote-right"></i>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    class="test-img rounded-circle mt-3"
+                    src="./Images/Jesse.jpg"
+                    alt="Jesse"
+                  />
+                </div>
+                <div class="col-md-8 d-flex justify-content-center flex-column">
+                  <h4>Jesse Spence</h4>
+                  <h5>Peer</h5>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="p-3">
-            <div class="bg-dark text-white p-3">6</div>
-          </div>
-          <div class="p-3">
-            <div class="bg-dark text-white p-3">7</div>
+            <div class="bg-dark text-white p-3">
+              <i class="fa-solid fa-quote-left"></i>
+              Uzair Damonse is an excellent web developer. His friendly
+              disposition and vast skills makes him an asset to any team.
+              Uzair's work is consistently displayed in both a creative and
+              professional manner. His vision translates beautifully to ensure a
+              well crafted user interface and functional user experience.
+              <i class="fa-solid fa-quote-right"></i>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    class="test-img rounded-circle mt-3"
+                    src="./Images/Carla1.jpg"
+                    alt="Carla"
+                  />
+                </div>
+                <div class="col-md-8 d-flex justify-content-center flex-column">
+                  <div class="title-container">
+                    <h4>Carla Amy Lawrence</h4>
+                    <h5>Peer</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -443,7 +589,114 @@
     <!-- Beginning of Contact -->
 
     <section id="Contact" class="py-5">
-      <div class="container py-5 border edge"></div>
+      <div class="container py-5 border edge">
+        <div class="row">
+          <div class="col-md-5">
+            <h2 id="Contact-title" class="text-capitalize text-start mx-4 px-3">
+              Get in touch with me
+            </h2>
+            <p class="underline text-start mx-4 px-3 mb-5"></p>
+            <div class="row text-center mx-4 px-3">
+              <div class="col-md-6">
+                <a href="#" target="_blank">
+                  <i
+                    class="social text-decoration-none fa-brands fa-github-square my-4"
+                  >
+                  </i>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="#" target="_blank">
+                  <i
+                    class="social text-decoration-none fa-brands fa-linkedin my-4"
+                  ></i>
+                </a>
+              </div>
+            </div>
+            <ul class="mx-5 px-3 mt-4">
+              <li class="text-capitalize list-unstyled">
+                <i class="fa-solid fa-location-dot p-3"></i> location : cape
+                town, south africa
+              </li>
+              <li class="text-capitalize list-unstyled">
+                <i class="fa-solid fa-envelope p-3"></i> email :
+                uzairdamonse03@gmail.com
+              </li>
+              <li class="text-capitalize list-unstyled">
+                <i class="fa-solid fa-mobile p-3"></i> phone number : +27 82 601
+                0435
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-7 d-flex justify-content-center">
+            <form
+              action="https://formspree.io/f/xnqwlvaj"
+              method="POST"
+              class="form"
+            >
+              <div class="contact-name">
+                <input
+                  type="text"
+                  name="Name"
+                  class="Form-control px-3 py-1"
+                  id="Name"
+                  placeholder="Your Name*"
+                  required
+                />
+              </div>
+              <div class="contact-email">
+                <input
+                  type="email"
+                  name="Email"
+                  class="Form-control px-3 py-1 mt-3"
+                  id="Email"
+                  placeholder="Your Email*"
+                  required
+                />
+              </div>
+
+              <div class="subject">
+                <input
+                  type="text"
+                  name="Subject"
+                  class="Form-control px-3 py-1 mt-3"
+                  id="Subject"
+                  placeholder="Subject*"
+                  required
+                />
+              </div>
+
+              <div class="Message">
+                <textarea
+                  name="Message"
+                  id="Message"
+                  cols="30"
+                  rows="5"
+                  class="Form-control mt-3 py-1"
+                  placeholder="   Message*"
+                  required
+                ></textarea>
+              </div>
+              <div class="Submit d-flex justify-content-around">
+                <button
+                  id="send"
+                  type="submit"
+                  class="text-center rounded-pill px-3 py-1 mt-3"
+                >
+                  Send
+                </button>
+                <button
+                  id="reset"
+                  type="reset"
+                  class="text-center rounded-pill px-3 py-1 mt-3"
+                >
+                  Reset
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- End of Contact -->
@@ -490,7 +743,7 @@
     <script>
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
-          autoplay: true,
+          autoplay: false,
           items: 2,
           loop: true,
         });

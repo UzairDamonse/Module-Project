@@ -6,7 +6,7 @@
 }
 
 :root {
-  --black: rgb(48, 48, 48);
+  --black: #303030;
   --grey: #bfbfbf;
   --blue: #2e64b5;
 }
@@ -52,9 +52,9 @@ body {
 }
 
 #logo {
-  font-size: 2rem;
-  color: var(--blue);
-  text-shadow: 1px 1px 8px rgba(191, 191, 191, 0.84);
+  width: 50px;
+  box-shadow: 1px 1px 8px rgba(191, 191, 191, 0.84);
+  border-radius: 50%;
 }
 
 #logo:hover {
@@ -97,6 +97,12 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+#Home-logo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
 
 #home-title {
@@ -218,6 +224,10 @@ body {
   box-shadow: 0px 1px 13px 8px #434141;
 }
 
+#Me {
+  width: 160px;
+}
+
 /* ===================================================================================================================== */
 
 /* Testimonials */
@@ -227,6 +237,11 @@ body {
   box-shadow: 0px 1px 13px 8px #434141;
 }
 
+.test-img {
+  width: 50px;
+  margin-right: 0;
+}
+
 /* ===================================================================================================================== */
 
 /* Contact */
@@ -234,6 +249,79 @@ body {
 #Contact .container {
   background-color: var(--grey);
   box-shadow: 0px 1px 13px 8px #434141;
+}
+
+.social {
+  font-size: 36px;
+  color: var(--blue);
+}
+
+.social:hover {
+  color: rgba(46, 100, 181, 0.7);
+}
+
+.contact-name {
+  width: 400px;
+}
+
+#Name {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contact-email {
+  width: 400px;
+}
+
+#Email {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.Subject {
+  width: 400px;
+}
+
+#Subject {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.Message {
+  width: 400px;
+}
+
+#Message {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#send {
+  background-color: var(--blue);
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: 650;
+  border: 1px solid var(--black);
+}
+
+#send:hover {
+  background-color: var(--black);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+#reset {
+  background-color: var(--blue);
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: 650;
+  border: 1px solid var(--black);
+}
+
+#reset:hover {
+  background-color: var(--black);
+  color: var(--blue);
+  border: 1px solid var(--blue);
 }
 
 /* ===================================================================================================================== */
