@@ -274,6 +274,7 @@ body {
 #Name {
   width: 100%;
   border-radius: 10px;
+  border: 1px solid var(--black);
 }
 
 .contact-email {
@@ -283,6 +284,7 @@ body {
 #Email {
   width: 100%;
   border-radius: 10px;
+  border: 1px solid var(--black);
 }
 
 .Subject {
@@ -292,6 +294,7 @@ body {
 #Subject {
   width: 100%;
   border-radius: 10px;
+  border: 1px solid var(--black);
 }
 
 .Message {
@@ -301,11 +304,12 @@ body {
 #Message {
   width: 100%;
   border-radius: 10px;
+  border: 1px solid var(--black);
 }
 
 #send {
   background-color: var(--blue);
-  color: var(--black);
+  color: var(--grey);
   font-size: 1rem;
   font-weight: 650;
   border: 1px solid var(--black);
@@ -319,7 +323,7 @@ body {
 
 #reset {
   background-color: var(--blue);
-  color: var(--black);
+  color: var(--grey);
   font-size: 1rem;
   font-weight: 650;
   border: 1px solid var(--black);
