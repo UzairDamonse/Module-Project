@@ -339,3 +339,30 @@ body {
   background-color: var(--black);
   color: var(--grey);
 }
+
+/* ===================================================================================================================== */
+
+/* Media Queries */
+
+@media screen and (max-width: 760px) {
+  .owl-carousel .owl-item img {
+    width: 50%;
+  }
+  .title-container {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #Dream-destination {
+    height: 200px;
+  }
+
+  #Calculator {
+    height: 200px;
+  }
+
+  #Restaurant {
+    height: 200px;
+  }
+}
