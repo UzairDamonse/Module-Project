@@ -133,15 +133,16 @@ body {
 }
 
 #Dream-destination {
-  width: 950px;
-  height: 500px;
+  width: 90%;
   margin: auto;
   box-shadow: 3px 4px 18px 5px rgba(0, 0, 0, 0.7);
 }
+.Dream-destination-text {
+  text-shadow: 1px 1px 6px rgba(191, 191, 191, 0.84);
+}
 
 #Calculator {
-  width: 950px;
-  height: 500px;
+  width: 90%;
   margin: auto;
   box-shadow: 3px 4px 18px 5px rgba(0, 0, 0, 0.7);
 }
@@ -151,10 +152,12 @@ body {
 }
 
 #Restaurant {
-  width: 950px;
-  height: 500px;
+  width: 90%;
   margin: auto;
   box-shadow: 3px 4px 18px 5px rgba(0, 0, 0, 0.7);
+}
+.Restaurant-text {
+  text-shadow: 1px 1px 6px rgba(191, 191, 191, 0.84);
 }
 
 .project-links {
