@@ -428,7 +428,7 @@
     <section id="Testimonials" class="py-5">
       <div class="container py-5 border edge">
         <div class="owl-carousel">
-          <div class="p-3">
+          <div class="test-card p-3">
             <div class="bg-dark text-white p-3">
               <i class="fa-solid fa-quote-left"></i>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
@@ -454,7 +454,7 @@
               </div>
             </div>
           </div>
-          <div class="p-3">
+          <div class="test-card p-3">
             <div class="bg-dark text-white p-3">
               <i class="fa-solid fa-quote-left"></i>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
@@ -477,7 +477,7 @@
               </div>
             </div>
           </div>
-          <div class="p-3">
+          <div class="test-card p-3">
             <div class="bg-dark text-white p-3">
               <i class="fa-solid fa-quote-left"></i>
               Uzair Damonse is a very animated young man who is never afraid to
@@ -501,7 +501,7 @@
               </div>
             </div>
           </div>
-          <div class="p-3">
+          <div class="test-card p-3">
             <div class="bg-dark text-white p-3">
               <i class="fa-solid fa-quote-left"></i>
               Uzair is a fast learner with the ability to pick up new skills
@@ -526,7 +526,7 @@
               </div>
             </div>
           </div>
-          <div class="p-3">
+          <div class="test-card p-3">
             <div class="bg-dark text-white p-3">
               <i class="fa-solid fa-quote-left"></i>
               Uzair is an extremely intelligent individual, he is clearly able
@@ -551,7 +551,7 @@
               </div>
             </div>
           </div>
-          <div class="p-3">
+          <div class="test-card p-3">
             <div class="bg-dark text-white p-3">
               <i class="fa-solid fa-quote-left"></i>
               Uzair Damonse is an excellent web developer. His friendly
@@ -745,6 +745,18 @@
           autoplay: false,
           items: 2,
           loop: true,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            900: {
+              items: 1,
+            },
+            1000: {
+              items: 2,
+            },
+          },
         });
       });
     </script>
