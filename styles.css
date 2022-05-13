@@ -249,13 +249,17 @@ body {
 
 /* Contact */
 
-#Contact .container {
+#Contact #Contact-container {
   background-color: var(--grey);
   box-shadow: 0px 1px 13px 8px #434141;
 }
 
+#Form {
+  width: 100%;
+}
+
 .social {
-  font-size: 36px;
+  font-size: 60px;
   color: var(--blue);
 }
 
@@ -264,7 +268,7 @@ body {
 }
 
 .contact-name {
-  width: 400px;
+  width: 100%;
 }
 
 #Name {
@@ -273,7 +277,7 @@ body {
 }
 
 .contact-email {
-  width: 400px;
+  width: 100%;
 }
 
 #Email {
@@ -282,7 +286,7 @@ body {
 }
 
 .Subject {
-  width: 400px;
+  width: 100%;
 }
 
 #Subject {
@@ -291,7 +295,7 @@ body {
 }
 
 .Message {
-  width: 400px;
+  width: 100%;
 }
 
 #Message {
